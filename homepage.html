@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>HOME PAGE</title>
+<meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
+<meta name="description" content="This document is an example of JavaScript Form Validation using a sample registration form. " />
+<link rel='stylesheet' href='MORD4.css' type='text/css' />
+<script src="time.js"></script>
+</head>
+<h1>Malonje</h1>
+    <script src="malonje.js"></script>
+<body onload="document.registration.userid.focus();">
+This is the second project and web designed by Mordecai Wyson Chikalo, Student at Mzuzu university student registration number (BEDICT0121).
+you may use the following form to get in contact with Mordecai Wyson Chikalo.
+<p>Here are links to the pages that contains related to this home page.</p>
+<p><a href= "skills.html">My skills</a></p>
+<h1>CLIENT FORM FOR CONTACT</h1>
+<form name='registration' onSubmit="return formValidation();">
+<ul>
+<li><label for="userid">User id:</label></li>
+<li><input type="INT" name="userid" size="12" /></li>
+<li><label for="passid">Password:</label></li>
+<li><input type="password" name="passid" size="4" /></li>
+<li><label for="username">Name:</label></li>
+<li><input type="text" name="username" size="12" /></li>
+<li><label for="address">Address:</label></li>
+<li><input type="text" name="address" size="50" /></li>
+<li><label for="country">UNIVERSITY:</label></li>
+<li><select name="UNIVERSITY">
+<option selected="" value="Default">(Please select your university)</option>
+<option value="AF">MZUZU UNIVERSITY</option>
+<option value="AL">LILONGWE UNIVERSITY OF NATURAL RESOURCES</option>
+<option value="DZ">MALAWI UNIVERSITY OF BUSSINESS AND APPLIED SCIENCE</option>
+<option value="AS">UNIVERSITY OF MALAWI</option>
+<option value="AD">KAMUDZU UNIVERSITY OF HEALTH SCIENCES</option>
+</select></li>
+<li><label for="zip">ZIP Code:</label></li>
+<li><input type="Int" name="zip" /></li>
+<li><label for="email">Email:</label></li>
+<li><input type="text" name="email" size="50" /></li>
+<li><label id="gender">Sex:</label></li>
+<li><input type="radio" name="msex" value="Male" /><span>Male</span></li>
+<li><input type="radio" name="fsex" value="Female" /><span>Female</span></li>
+<li><label>Language:</label></li>
+<li><input type="checkbox" name="en" value="en" checked /><span>English</span></li>
+<li><input type="checkbox" name="nonen" value="noen" /><span>chichewa</span></li>
+<li><label for="desc">About:</label></li>
+<li><textarea name="desc" id="desc"></textarea></li>
+<li><input type="submit" name="submit" value="Submit" /></li>
+</ul>
+</form>
+</body>
+</html>
