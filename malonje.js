@@ -3,11 +3,11 @@ var hourNow = today.getHours();
 var greeting;
 
 if (hourNow > 18) {
-    greeting = 'Mwadzuka bwanji?!';
+    greeting = 'MULI BWANJI?!';
 } else if (hourNow > 12) {
-    greeting = 'Mwaswera bwanji?!';
+    greeting = 'MWALANDIRIDWA?!';
 } else if (hourNow > 0) {
-    greeting = 'Tsiku lanu latha bwanji?!';
+    greeting = 'HOW WAS YOUR NIGHT?!';
 } else {
     greeting = 'Welcome!';
 }

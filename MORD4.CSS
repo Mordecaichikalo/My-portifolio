@@ -1,5 +1,7 @@
 h1 {
-margin-left: 70px;
+margin-left: 200px;
+margin-right: 200px;
+background-color: green;
 }
 form li {
 list-style: none;
@@ -14,11 +16,13 @@ text-align: right;
 margin-right: 10px;
 font-family:Verdana, Arial, Helvetica, sans-serif;
 font-size:14px;
+
 }
 
 form ul li input, select, span {
 float: left;
 margin-bottom: 10px;
+background-color: blue;
 }
 
 form textarea {
@@ -27,7 +31,7 @@ width: 350px;
 height: 150px;
 }
 
-[type="submit"] {
+.[type="submit"] {
 clear: left;
 margin: 20px 0 0 230px;
 font-size:18px
@@ -36,7 +40,4 @@ font-size:18px
 p {
 margin-left: 70px;
 font-weight: bold;
-}
-.navbarScroll.navbarDark {
-    background-color: black;
 }
